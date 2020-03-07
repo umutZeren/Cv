@@ -1,0 +1,239 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\includegraphics[height=2.5cm]{düzen.jpg} 
+\namesection{Umut}{Zeren}
+{ 
+	  \href{umut.zeren@tedu.edu.tr}{umut.zeren@tedu.edu.tr}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.32\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{TEDU University } \small{(100\% English)}\\[0.1cm]
+Secondary Field:Management \\[0.1in]
+\location{Ankara Turkey \\[0.1in] Cum. GPA:2.61}
+\sectionsep
+
+
+
+\descript{BS in Computer Science}
+
+
+
+\sectionsep
+\sectionsep
+\sectionsep
+\sectionsep
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/umutZeren}{\custombold{umutZeren}} \\[0.10in]
+LinkedIn://  \href{https://www.linkedin.com/in/umut-zeren-4405311a2/}{\custombold{UmutZeren}} \\[0.10in]
+Hackerrank://\href{https://www.hackerrank.com/umutzerencs}{\custombold{UmutZerencs}}
+%YouTube://  %\href{https://www.youtube.com/user/DeedyDash007}{\custombold{DeedyDash007}} \\
+%Twitter://  \href{https://twitter.com/debarghya_das}{\custombold{@debarghya\_das}} \\
+%Quora://  \href{https://www.quora.com/Debarghya-Das}{\custombold{Debarghya-Das}}
+%Hackerrank ekle ama
+\sectionsep
+
+\sectionsep
+\sectionsep
+\sectionsep
+\sectionsep
+
+
+\section{Contacts}
+E-mail:umut.zeren@tedu.edu.tr\\[0.1in]
+umutzerencs@gmail.com \\[0.1in]
+Mobile:+90 507 210 77 39
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+%\subsection{Graduate}
+%Advanced Machine Learning \\
+%Open Source Software Engineering \\
+%Advanced Interactive Graphics \\
+%Compilers + Practicum \\
+%Cloud Computing \\
+%\sectionsep
+
+\subsection {Undergraduate}
+
+Game Devolopment  \\[0.10in]
+Relational Databases \\[0.10in]
+Digital Design        \\[0.10in]
+Marketing              \\[0.10in]
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%pic gelecek
+\section{Skills}
+\subsection{Programming}
+\Large{\textbullet{}Java \location{(Over 2500 lines)}\Large \textbullet C \textbullet{} Ruby  \textbullet LaTeX}\\[0.1cm]
+{\Large	\textbullet{}html \textbullet{} CSS  \\}
+	\location{\large Familiar:}
+	\Large{\textbullet{} {C\#} \textbullet{} Android \textbullet{} MySQL \textbullet{} Python \textbullet{}MIPS Assembly }
+          
+\sectionsep
+          
+\sectionsep
+          
+
+          
+\sectionsep
+\runsubsection{Further Skılls}
+\descript{Have experience in using :}
+
+\begin{tightemize}
+	\sectionsep
+\item Git and Github   
+\item Linux (Fedora and Ubuntu distributions)
+\item Xillinx ISE (using VHDL programming language),Digilent Adept
+\item {\large Vi and vim} ,Eclipse,TeXstudio(LaTeX IDE)	 
+\item Oracle Virtual box
+\item Atom,Android Studio
+\item Rest API
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Side projects and Languages }
+
+
+\begin{tightemize}
+\item 2D Game written in Java \href{https://github.com/umutZeren/Java\_Game}{github/Java Game}\\[0.1cm]
+\item \href{https://github.com/umutZeren/Delete\_comments/blob/master/fileManege.rb} {github/file.rb}(A script to delete comments automatically in ruby,Python code)\\[0.1cm]
+\item To-Do Entrepneurship (certificate)\\[0.1cm]
+\item English (advanced)\\[0.1cm]
+\item Italian (beginner)\\[0.1cm]
+\item Russian (beginner)\\[0.1cm]
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIETIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Hobbies and Interests} 
+\begin{tightemize}
+\sectionsep
+\item Member of IEE and TEDU Computer Society\item Playing  piano\item Watching sports events,especially boxing and basketball\item Listening podcasts and reading articles about business and invesment
+\end{tightemize}
+	\section {References}
+\subsection{Tansel Dökeroglu} 
+Doç dr. at TEDU Computer Science Department \\[0.09in]
+email:\href{tansel.dokeroglu@tedu.edu.tr}{tansel.dokeroglu@tedu.edu.tr}\\[0.1in]
+phone: (312) 585 0330
+\subsection{Tayfun Küçükyılmaz}
+Dr. Ögr Üyesi at TEDU Computer Science Department\\[0.1in]
+email:\href{tayfun.kucukyilmaz@tedu.edu.tr}{tayfun.kucukyilmaz@tedu.edu.tr}\\[0.1in]
+phone: (312) 585 0186
+
+
+ \end{minipage}
+
+
+
+
+\end{document}
